@@ -1,0 +1,15 @@
+
+#!/Library/Frameworks/Python.framework/Versions/2.7/bin/python
+
+
+import chirp
+
+chirpsdk = chirp.ChirpSDK('WBjCb0AOmkI8KuKH2dXJ3dZTt', 'bkXd7Gko3mgXF2pseWiVGPdkLjjbTsMGc9gwdRfRrgOQRmMnyl')
+linestring = open("chirpText1.txt","r")
+data = ""
+lines = linestring.readlines()
+for line in lines:
+    data = data + line.strip();
+print data
+r = chirpsdk.create_chirp({ "Payload" : data })
+r.chirp()
