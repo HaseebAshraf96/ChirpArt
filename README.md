@@ -1,0 +1,2 @@
+# ChirpArt
+ChirpArt is a multi language program that provides users with the opportunity to express their artistic skills in the form of drawn art, and continues the theme of art by allowing the user to transmit their creations to their friends and family through Chirp.io's unique transmission system of sound. The artwork is encoded and transmitted to "listening" hosts who would like to view the art.
